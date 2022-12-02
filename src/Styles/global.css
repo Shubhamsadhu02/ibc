@@ -53,6 +53,13 @@ h2
     color: #13144D;
 }
 
+h5
+{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+}
+
 p
 {
     font-weight: 400;
@@ -89,7 +96,6 @@ p
 {
     position: relative;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
@@ -100,4 +106,90 @@ p
     width: 56px;
     bottom: -20px;
     border-bottom: 4px solid #02E3A7;
+    left: 40%;
+}
+
+.topic1 h2::before
+{
+    left: 0;
+}
+
+.about-box
+{
+    width: 400px;
+    height: 465px;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(19, 20, 77, 0.24);
+    border-radius: 16px;
+}
+
+.about-img img,
+.reach-img img
+{
+    border-radius: 16px 16px 0 0;
+}
+
+.about-flag img
+{
+    width: 54px;
+    height: 39px;
+}
+
+.about-list ul li
+{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 150%;
+    color: #5A5B68;
+}
+
+.about-content,
+.reach-content
+{
+    padding: 24px;
+    margin-top: -45px;
+}
+
+.core-table tr
+{
+    border-radius: 16px;
+}
+
+.core-table tr td
+{
+    width: 500px;
+    padding: 25px 40px;
+    border: 1px solid rgba(255, 255, 255, 0.24);
+    background: rgba(255, 255, 255, 0.04)
+}
+
+.core-img img
+{
+    width: 80px;
+    height: 80px;
+}
+
+.reach-box
+{
+    width: 600px;
+    height: 472px;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(90, 91, 104, 0.24);
+    border-radius: 16px;
+}
+
+.reach-icon img
+{
+    width: 72px;
+    height: 72px;
+}
+
+.reach-email a
+{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #13144D;
 }

@@ -2,6 +2,9 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 
 import Header from '../Partials/Header';
+import AboutUsCards from './AboutUsCards';
+import CoreValues from './CoreValues';
+import ReachToUs from './ReachToUs';
 
 export default function Home() {
     return (
@@ -21,7 +24,7 @@ export default function Home() {
                                 </div>
                             </div>
                             <div className="col-sm-12 col-md-5 col-lg-4 order-md-2 order-1">
-                                <img src='images/Home/home1.png' />
+                                <img src='images/Home/home1.png' alt='' />
                             </div>
                         </div>
                     </div>
@@ -29,19 +32,27 @@ export default function Home() {
 
             </section>
 
+
             <section className='aboutUs mt-15 mb-15'>
                 <div className="container d-flex flex-column justofy-content-center align-items-center">
                     <div className="topic text-center">
                         <h2>About us</h2>
                     </div>
-                    <div className="about-paragraph text-center mt-10 d-flex justify-content-center align-items-center" style={{width: "870px"}}>
+                    <div className="about-paragraph text-center mt-10 d-flex justify-content-center align-items-center" style={{ width: "870px" }}>
                         <p>International Battery Company (IBC) is building proprietary I-NMC Prismatic cells in India at the planned non-captive Gigafactory. IBC cells will reduce battery complexity due to the large form factor, have 40% higher energy density than LFP cells, and are recyclable. These cells will be especially suited for mobility applications (EVs). The supply chain will be localized and secured to enable energy independence.
-                            <br/>
-                            <br/>
-                        While the R&D is being done in the US, a pilot plan is being built in South Korea, and High-Volume-Manufacturing is planned to be done in India at the non-captive Gigafactory.</p>
+                            <br />
+                            <br />
+                            While the R&D is being done in the US, a pilot plan is being built in South Korea, and High-Volume-Manufacturing is planned to be done in India at the non-captive Gigafactory.</p>
                     </div>
+
+                    <AboutUsCards />
                 </div>
             </section>
+
+            <CoreValues/>
+
+
+            <ReachToUs/>
 
         </>
     )
