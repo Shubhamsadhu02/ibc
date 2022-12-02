@@ -151,10 +151,14 @@ p
     margin-top: -45px;
 }
 
-.core-table tr
+.core-table,
+.proposition-table
 {
+    border-collapse: collapse;
     border-radius: 16px;
+    overflow: hidden;
 }
+
 
 .core-table tr td
 {
@@ -192,4 +196,43 @@ p
     font-size: 18px;
     line-height: 140%;
     color: #13144D;
+}
+
+.value-list ul
+{
+    padding-left: 0 !important;
+    margin-top: 100px;
+}
+
+.value-list ul li
+{
+    list-style: none;
+}
+
+.value-list ul li img
+{
+    width: 32px;
+    height: 32px;   
+}
+
+.value-list ul li h5{
+    margin-left: 30px;
+    margin-bottom: 25px;
+}
+
+.proposition-table tr td
+{
+    background: #FFFFFF;
+    border: 1px solid rgba(19, 20, 77, 0.24);
+    padding: 32px;
+}
+
+.proposition-img img
+{
+    width: 32px;
+    height: 32px;
+}
+
+.proposition-paragraph p{
+    font-size: 17px;
 }

@@ -49,10 +49,113 @@ export default function Home() {
                 </div>
             </section>
 
-            <CoreValues/>
+            <CoreValues />
 
+            <section className='value_proposition mt-15 mb-15'>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-sm-12 col-md-6 col-lg-6">
+                            <table className='proposition-table'>
+                                <tr>
+                                    <td>
+                                        <div className="proposition">
+                                            <div className="proposition-img">
+                                                <img src='/images/Home/high-performance.png' alt='' />
+                                            </div>
+                                            <div className="proposition-paragraph mt-4">
+                                                <p>High Performance Prismatic Cells with &gt;180Wh/cell</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div className="proposition">
+                                            <div className="proposition-img">
+                                                <img src='/images/Home/battery.png' alt='' />
+                                            </div>
+                                            <div className="proposition-paragraph mt-4">
+                                                <p>40% Higher Energy Density at &gt;200Wh/Kg</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                <td>
+                                        <div className="proposition">
+                                            <div className="proposition-img">
+                                                <img src='/images/Home/protect.png' alt='' />
+                                            </div>
+                                            <div className="proposition-paragraph mt-4">
+                                                <p>High Performance Prismatic Cells with &gt;180Wh/cell</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div className="proposition">
+                                            <div className="proposition-img">
+                                                <img src='/images/Home/recycle.png' alt='' />
+                                            </div>
+                                            <div className="proposition-paragraph mt-4">
+                                                <p>Recyclable NMC Chemistry. Li can be reused</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                <td>
+                                        <div className="proposition">
+                                            <div className="proposition-img">
+                                                <img src='/images/Home/aatmanirbhar-bharat.png' alt='' />
+                                            </div>
+                                            <div className="proposition-paragraph mt-4">
+                                                <p>Secured Supply Chain with suppliers moving to India</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div className="proposition">
+                                            <div className="proposition-img">
+                                                <img src='/images/Home/made-in-India.png' alt='' />
+                                            </div>
+                                            <div className="proposition-paragraph mt-4">
+                                                <p>Make in India and designed for Indian needs</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div className="col-lg-1"></div>
+                        <div className="col-sm-12 col-md-5 col-lg-5 d-flex align-items-center">
+                            <div className="reach-contact">
+                                <div className="topic topic1">
+                                    <h2>Value proposition of the Product</h2>
+                                </div>
+                                <div className="value-list">
+                                    <ul>
+                                        <li>
+                                            <div className="value-content d-flex">
+                                                <img src='/images/Home/tick.png' alt='' /><h5>40% higher energy density</h5>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div className="value-content d-flex">
+                                                <img src='/images/Home/tick.png' alt='' /><h5> 15 years cycle life</h5>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div className="value-content d-flex">
+                                                <img src='/images/Home/tick.png' alt='' /><h5>Proprietary technology</h5>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-            <ReachToUs/>
+            <ReachToUs />
 
         </>
     )
