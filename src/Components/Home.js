@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 import Header from '../Partials/Header';
 import AboutUsCards from './AboutUsCards';
+import CellDesigned from './CellDesigned';
 import CoreValues from './CoreValues';
 import ReachToUs from './ReachToUs';
 
@@ -53,7 +54,7 @@ export default function Home() {
 
             <section className='value_proposition mt-15 mb-15'>
                 <div className="container">
-                    <div className="row">
+                    <div className="row" style={{rowGap: "25px"}}>
                         <div className="col-sm-12 col-md-6 col-lg-6">
                             <table className='proposition-table'>
                                 <tr>
@@ -79,7 +80,7 @@ export default function Home() {
                                     </td>
                                 </tr>
                                 <tr>
-                                <td>
+                                    <td>
                                         <div className="proposition">
                                             <div className="proposition-img">
                                                 <img src='/images/Home/protect.png' alt='' />
@@ -101,7 +102,7 @@ export default function Home() {
                                     </td>
                                 </tr>
                                 <tr>
-                                <td>
+                                    <td>
                                         <div className="proposition">
                                             <div className="proposition-img">
                                                 <img src='/images/Home/aatmanirbhar-bharat.png' alt='' />
@@ -154,6 +155,23 @@ export default function Home() {
                     </div>
                 </div>
             </section>
+
+            <section className='cell-chart mt-15 mb-15' >
+                <div className="container cell-chartbg p-5">
+                    <div className="row">
+                        <div className="col-lg-3">
+                            <div className="cell-paragraph">
+                                <p style={{width: "194px"}}>Proprietary (I-NMC) chemistry to increase cycle life with high energy density and increased safety</p>
+                            </div>
+                        </div>
+                        <div className="col-lg-9">
+                            <img src='/images/Home/cellchart.png' alt=''/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <CellDesigned/>
 
             <ReachToUs />
 

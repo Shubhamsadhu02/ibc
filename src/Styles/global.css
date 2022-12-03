@@ -236,3 +236,67 @@ p
 .proposition-paragraph p{
     font-size: 17px;
 }
+
+.cell-chartbg
+{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 24px rgba(195, 195, 203, 0.24);
+    border-radius: 16px;
+}
+
+.cell-box
+{
+    width: 420px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.24);
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.cell-image img
+{
+    width: 393px;
+    height: 434px;
+}
+
+.cell-list ul
+{
+    margin-bottom: 0 !important;
+}
+
+.cell-list ul li
+{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.cell-box1
+{
+    position: absolute;
+    top: -25px;
+    left: -420px;
+}
+
+.cell-box2
+{
+    position: relative;
+    left: -420px;
+    bottom: 190px;
+}
+
+.cell-box3
+{
+    position: absolute;
+    top: -25px;
+    right: -385px;
+}
+
+.cell-box4
+{
+    position: absolute;
+    bottom: 190px;
+    right: -391px;
+}

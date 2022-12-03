@@ -40,7 +40,8 @@
     }
 
     .reachtous,
-    .core-values
+    .core-values,
+    .cell-designed
     {
         padding: 70px 26px !important;
     }
@@ -80,5 +81,34 @@
     .reach-icon img {
         width: 55px;
         height: 55px;
+    }
+
+    .topic h2::before
+    {
+        left: 30%;
+    }
+
+    .topic1 h2::before {
+        left: 0;
+    }
+
+    .topic 
+    {
+        text-align: initial;
+    }
+
+    .cell-list ul li
+    {
+        font-size: 14px;
+    }
+
+    .proposition-table tr
+    {
+        display: grid;
+    }
+
+    .proposition-table tr td
+    {
+        width: 330px;
     }
 }

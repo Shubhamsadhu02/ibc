@@ -12,7 +12,7 @@ export default function AboutUsCards() {
                                     </div>
                                     <div className="about-content">
                                         <div className="about-flag mb-4">
-                                            <img src='/images/Home/Usflag.png' alt=''/>
+                                            <img src='/images/Home/USflag.png' alt=''/>
                                         </div>
                                         <div className="about-list">
                                             <ul>
