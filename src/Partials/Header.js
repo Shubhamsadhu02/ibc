@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default function Header() {
   return (
     <>
-      <nav className="navbar" style={{ padding: "15px 0" }}>
+      <nav className="navbar" style={{background: "#17185E" ,padding: "15px 0" }}>
         <div className="container header-nav">
 
           <div className="logo">

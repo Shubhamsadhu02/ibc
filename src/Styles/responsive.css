@@ -34,9 +34,15 @@
         justify-content: center !important;
     }
 
+    .homeimgbg 
+    {
+        background: none;
+    }
+
     .home-top
     {
         text-align: center;
+        padding-top: 55px;
     }
 
     .reachtous,

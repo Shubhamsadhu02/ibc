@@ -10,13 +10,12 @@ import ReachToUs from './ReachToUs';
 export default function Home() {
     return (
         <>
+        <Header/>
             <section className="home-top__bg" >
-                <Header />
-
                 <div className="container">
-                    <div className="home-top mt-15">
+                    <div className="home-top">
                         <div className="row">
-                            <div className="col-sm-12 col-md-7 col-lg-8 order-md-1 order-2">
+                            <div className="col-sm-12 col-md-7 col-lg-7 order-md-1 order-2" style={{marginBottom: "220px"}}>
                                 <div className="home-head">
                                     <h1>Building High-Performance Lithium-Ion Cells for Mobility</h1>
                                 </div>
@@ -24,8 +23,8 @@ export default function Home() {
                                     <Link to={'#'}><button type='button'>Contact us</button></Link>
                                 </div>
                             </div>
-                            <div className="col-sm-12 col-md-5 col-lg-4 order-md-2 order-1">
-                                <img src='images/Home/home1.png' alt='' />
+                            <div className="homeimgbg col-sm-12 col-md-5 col-lg-5 order-md-2 order-1">
+                                <img src='images/Home/home1.png' alt='' className='img-responsive w-100 h-100' />
                             </div>
                         </div>
                     </div>
