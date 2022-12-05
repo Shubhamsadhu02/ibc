@@ -34,15 +34,21 @@
         justify-content: center !important;
     }
 
-    .homeimgbg 
-    {
-        background: none;
-    }
-
     .home-top
     {
         text-align: center;
         padding-top: 55px;
+    }
+
+    .home-top--content
+    {
+        margin-bottom: 70px;
+    }
+
+    .contact-btn button, .head-contact_btn button
+    {
+        padding: 14px 35px;
+        font-size: 14px;
     }
 
     .reachtous,
@@ -62,11 +68,6 @@
         margin-top: 30px;
     }
 
-    .core
-    {
-        flex-direction: column;
-    }
-
     .core-img img
     {
         width: 40px;
@@ -75,13 +76,14 @@
 
     .core-table tr td
     {
-        width: 145px;
-        padding: 18px 0px;
+        width: 270px;
+        padding: 30px 30px;
     }
 
     .core-name
     {
         padding-left: 0px !important;
+        margin-left: 25px;
     }
 
     .reach-icon img {
@@ -108,7 +110,8 @@
         font-size: 14px;
     }
 
-    .proposition-table tr
+    .proposition-table tr,
+    .core-table tr
     {
         display: grid;
     }
@@ -116,5 +119,21 @@
     .proposition-table tr td
     {
         width: 330px;
+    }
+
+    .cell-image img {
+        width: 324.18px;
+        height: 358px;
+    }
+
+    .cell-box1,.cell-box2,.cell-box3,.cell-box4
+    {
+        position: initial;
+        margin-top: 25px;
+    }
+
+    .reach-cotent
+    {
+        justify-content: start !important;
     }
 }

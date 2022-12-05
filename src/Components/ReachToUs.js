@@ -22,7 +22,7 @@ export default function ReachToUs() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center order-md-2 order-1">
+                        <div className="reach-cotent col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center order-md-2 order-1">
                             <div className="reach-contact">
                                 <div className="topic topic1">
                                     <h2>Reach us at</h2>
