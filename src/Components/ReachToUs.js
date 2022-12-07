@@ -3,7 +3,7 @@ import React from 'react'
 export default function ReachToUs() {
     return (
         <>
-            <section className='reachtous' style={{ padding: "110px 120px" }}>
+            <section className='reachtous' id='reachtous' style={{ padding: "110px 120px" }}>
                 <div className="container">
                     <div className="row" style={{rowGap: "20px"}}>
                         <div className="col-sm-12 col-md-6 col-lg-6 orer-md-1 order-2">

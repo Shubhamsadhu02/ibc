@@ -11,7 +11,7 @@ export default function Header() {
             <Link to="/" className="navbar-brand"><img src="/images/Home/IBClogo.svg" alt='' /></Link>
           </div>
           <div className="contact-btn">
-            <Link to={'#'}><button type='button'>Contact us</button></Link>
+            <a href='#reachtous'><button type='button'>Contact us</button></a>
           </div>
         </div>
 
