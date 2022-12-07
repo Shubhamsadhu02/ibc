@@ -310,7 +310,8 @@ p
     right: -391px;
 }
 
-.about-container .swiper-slide .col-lg-4
+
+.about-container
 {
-    width: 100% !important;
+    width: 100%;
 }

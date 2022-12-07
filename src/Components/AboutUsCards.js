@@ -1,4 +1,7 @@
 import React from 'react'
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+import { Autoplay } from "swiper";
 
 import "swiper/css";
 
@@ -7,8 +10,31 @@ export default function AboutUsCards() {
     return (
         <>
             <div className="about-container mt-15">
-                <div className="row" style={{ rowGap: "15px" }}>
-                    <div className="col-sm-12 col-lg-4">
+
+                <Swiper
+                    spaceBetween={50}
+                    slidesPerView={1}
+                    modules={[Autoplay]} className="homeSlider"
+                    autoplay={{
+                        delay: 3000,
+                        disableOnInteraction: true,
+                    }}
+                    breakpoints={{
+                        640: {
+                            slidesPerView: 2,
+                            spaceBetween: 20,
+                        },
+                        768: {
+                            slidesPerView: 3,
+                            spaceBetween: 40,
+                        },
+                        1024: {
+                            slidesPerView: 3,
+                            spaceBetween: 50,
+                        },
+                    }}
+                >
+                    <SwiperSlide>
                         <div className="about-box">
                             <div className="about-img">
                                 <img src='/images/Home/about1.png' alt='' />
@@ -25,9 +51,9 @@ export default function AboutUsCards() {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
 
-                    <div className="col-sm-12 col-lg-4">
                         <div className="about-box">
                             <div className="about-img">
                                 <img src='/images/Home/about2.png' alt='' />
@@ -46,9 +72,10 @@ export default function AboutUsCards() {
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div className="col-sm-12 col-lg-4">
+                    </SwiperSlide>
+                    <SwiperSlide>
+
                         <div className="about-box">
                             <div className="about-img">
                                 <img src='/images/Home/about3.png' alt='' />
@@ -66,8 +93,11 @@ export default function AboutUsCards() {
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
+
+                    </SwiperSlide>
+
+
+                </Swiper>
             </div>
         </>
     )
