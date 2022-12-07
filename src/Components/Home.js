@@ -73,7 +73,7 @@ export default function Home() {
                                                 <img src='/images/Home/battery.png' alt='' />
                                             </div>
                                             <div className="proposition-paragraph mt-4">
-                                                <p>40% Higher Energy Density at &gt;200Wh/Kg</p>
+                                                <p>40% Higher Energy Density at &gt;160KWh/Ke</p>
                                             </div>
                                         </div>
                                     </td>
@@ -85,7 +85,7 @@ export default function Home() {
                                                 <img src='/images/Home/protect.png' alt='' />
                                             </div>
                                             <div className="proposition-paragraph mt-4">
-                                                <p>High Performance Prismatic Cells with &gt;180Wh/cell</p>
+                                                <p>High Performance Prismatic Cells with &gt;180KWh/cell</p>
                                             </div>
                                         </div>
                                     </td>

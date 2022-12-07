@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 export default function ReachToUs() {
     return (
@@ -28,7 +27,7 @@ export default function ReachToUs() {
                                     <h2>Reach us at</h2>
                                 </div>
                                 <div className="reach-email mt-5">
-                                    <Link to={"#"}>contact@ibcbatt.com</Link>
+                                    <a href="mailto:contact@ibcbatt.com">contact@ibcbatt.com</a>
                                 </div>
                             </div>
                         </div>

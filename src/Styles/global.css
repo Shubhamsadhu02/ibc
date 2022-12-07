@@ -185,7 +185,7 @@ p
 .reach-box
 {
     width: 600px;
-    height: 472px;
+    height: auto;
     overflow: hidden;
 
     background: #FFFFFF;
@@ -308,4 +308,9 @@ p
     position: absolute;
     bottom: 190px;
     right: -391px;
+}
+
+.about-container .swiper-slide .col-lg-4
+{
+    width: 100% !important;
 }
