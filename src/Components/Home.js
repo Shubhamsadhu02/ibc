@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 
 import Header from '../Partials/Header';
 import AboutUsCards from './AboutUsCards';
@@ -20,7 +19,7 @@ export default function Home() {
                                     <h1>Building High-Performance Lithium-Ion Cells for Mobility</h1>
                                 </div>
                                 <div className="head-contact_btn mt-5">
-                                    <Link to={'#'}><button type='button'>Contact us</button></Link>
+                                    <a href='#reachtous'><button type='button'>Contact us</button></a>
                                 </div>
                             </div>
                             <div className="homeimgbg col-sm-12 col-md-5 col-lg-5">
@@ -63,7 +62,7 @@ export default function Home() {
                                                 <img src='/images/Home/high-performance.png' alt='' />
                                             </div>
                                             <div className="proposition-paragraph mt-4">
-                                                <p>High Performance Prismatic Cells with &gt;180Wh/cell</p>
+                                                <p>High Performance Prismatic Cells with &gt;160Wh/cell</p>
                                             </div>
                                         </div>
                                     </td>
@@ -85,7 +84,7 @@ export default function Home() {
                                                 <img src='/images/Home/protect.png' alt='' />
                                             </div>
                                             <div className="proposition-paragraph mt-4">
-                                                <p>High Performance Prismatic Cells with &gt;180KWh/cell</p>
+                                                <p>Safe, well tested NMC chemistry with added thermal protections</p>
                                             </div>
                                         </div>
                                     </td>
