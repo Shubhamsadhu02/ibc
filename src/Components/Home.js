@@ -16,7 +16,7 @@ export default function Home() {
                         <div className="row">
                             <div className="home-top--content col-sm-12 col-md-7 col-lg-7">
                                 <div className="home-head">
-                                    <h1>Building High-Performance Lithium-Ion Cells for Mobility</h1>
+                                    <h1>High-Performance Lithium-Ion Cells for Mobility</h1>
                                 </div>
                                 <div className="head-contact_btn mt-5">
                                     <a href='#reachtous'><button type='button'>Contact us</button></a>
