@@ -79,7 +79,7 @@ p
     font-weight: 600;
     font-size: 16px;
     line-height: 21px;
-    color: #FFFFFF;
+    color: #13144D;
 }
 
 .home-top__bg
@@ -236,6 +236,11 @@ p
 .value-list ul li h5{
     margin-left: 30px;
     margin-bottom: 25px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #13144D;
 }
 
 .proposition
