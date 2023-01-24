@@ -13,52 +13,45 @@ export default function CoreValues() {
                         </div>
                         <div className="col-lg-1"></div>
                         <div className="col-lg-7">
-                            <table className='core-table'>
-                                <tr>
-                                    <td>
-                                        <div className="core d-flex align-items-center">
-                                            <div className="core-img">
-                                                <img src='/images/Home/saftey.png' alt='' />
-                                            </div>
-                                            <div className="core-name" style={{ paddingLeft: "25px" }}>
-                                                <h5 style={{ color: "#FFFFFF" }}>Safety</h5>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div className="core d-flex align-items-center">
-                                            <div className="core-img">
-                                                <img src='/images/Home/Sustainability.png' alt='' />
-                                            </div>
-                                            <div className="core-name" style={{ paddingLeft: "25px" }}>
-                                                <h5 style={{ color: "#FFFFFF" }}>Sustainability</h5>
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div className="core d-flex align-items-center">
-                                            <div className="core-img">
-                                                <img src='/images/Home/quality.png' alt='' />
-                                            </div>
-                                            <div className="core-name" style={{ paddingLeft: "25px" }}>
-                                                <h5 style={{ color: "#FFFFFF" }}>Quality</h5>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div className="core d-flex align-items-center">
-                                            <div className="core-img">
-                                                <img src='/images/Home/Performance.png' alt='' />
-                                            </div>
-                                            <div className="core-name" style={{ paddingLeft: "25px" }}>
-                                                <h5 style={{ color: "#FFFFFF" }}>Performance</h5>
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                            </table>
+                            <div className='core-table'>
+
+                                <div className="core d-flex align-items-center">
+                                    <div className="core-img">
+                                        <img src='/images/Home/saftey.png' alt='' />
+                                    </div>
+                                    <div className="core-name" style={{ paddingLeft: "25px" }}>
+                                        <h5 style={{ color: "#FFFFFF" }}>Safety</h5>
+                                    </div>
+                                </div>
+
+                                <div className="core d-flex align-items-center">
+                                    <div className="core-img">
+                                        <img src='/images/Home/Sustainability.png' alt='' />
+                                    </div>
+                                    <div className="core-name" style={{ paddingLeft: "25px" }}>
+                                        <h5 style={{ color: "#FFFFFF" }}>Sustainability</h5>
+                                    </div>
+                                </div>
+
+                                <div className="core d-flex align-items-center">
+                                    <div className="core-img">
+                                        <img src='/images/Home/quality.png' alt='' />
+                                    </div>
+                                    <div className="core-name" style={{ paddingLeft: "25px" }}>
+                                        <h5 style={{ color: "#FFFFFF" }}>Quality</h5>
+                                    </div>
+                                </div>
+
+                                <div className="core d-flex align-items-center">
+                                    <div className="core-img">
+                                        <img src='/images/Home/Performance.png' alt='' />
+                                    </div>
+                                    <div className="core-name" style={{ paddingLeft: "25px" }}>
+                                        <h5 style={{ color: "#FFFFFF" }}>Performance</h5>
+                                    </div>
+                                </div>
+
+                            </div>
                         </div>
                     </div>
                 </div>

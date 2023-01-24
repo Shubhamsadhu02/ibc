@@ -9,7 +9,7 @@ import ReachToUs from './ReachToUs';
 export default function Home() {
     return (
         <>
-        <Header/>
+            <Header />
             <section className="home-top__bg" >
                 <div className="container">
                     <div className="home-top">
@@ -52,76 +52,65 @@ export default function Home() {
 
             <section className='value_proposition mt-15 mb-15'>
                 <div className="container">
-                    <div className="row" style={{rowGap: "25px"}}>
+                    <div className="row" style={{ rowGap: "25px" }}>
                         <div className="col-sm-12 col-md-6 col-lg-6">
-                            <table className='proposition-table'>
-                                <tr>
-                                    <td>
-                                        <div className="proposition">
-                                            <div className="proposition-img">
-                                                <img src='/images/Home/high-performance.png' alt='' />
-                                            </div>
-                                            <div className="proposition-paragraph mt-4">
-                                                <p>High Performance Prismatic Cells with &gt;160Wh/cell</p>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div className="proposition">
-                                            <div className="proposition-img">
-                                                <img src='/images/Home/battery.png' alt='' />
-                                            </div>
-                                            <div className="proposition-paragraph mt-4">
-                                                <p>40% Higher Energy Density at &gt;160KWh/Kg</p>
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div className="proposition">
-                                            <div className="proposition-img">
-                                                <img src='/images/Home/protect.png' alt='' />
-                                            </div>
-                                            <div className="proposition-paragraph mt-4">
-                                                <p>Safe, well tested NMC chemistry with added thermal protections</p>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div className="proposition">
-                                            <div className="proposition-img">
-                                                <img src='/images/Home/recycle.png' alt='' />
-                                            </div>
-                                            <div className="proposition-paragraph mt-4">
-                                                <p>Recyclable NMC Chemistry. Li can be reused</p>
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div className="proposition">
-                                            <div className="proposition-img">
-                                                <img src='/images/Home/aatmanirbhar-bharat.png' alt='' />
-                                            </div>
-                                            <div className="proposition-paragraph mt-4">
-                                                <p>Secured Supply Chain with suppliers moving to India</p>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div className="proposition">
-                                            <div className="proposition-img">
-                                                <img src='/images/Home/made-in-India.png' alt='' />
-                                            </div>
-                                            <div className="proposition-paragraph mt-4">
-                                                <p>Make in India and designed for Indian needs</p>
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                            </table>
+                            <div className='proposition-table'>
+
+                                <div className="proposition">
+                                    <div className="proposition-img">
+                                        <img src='/images/Home/high-performance.png' alt='' />
+                                    </div>
+                                    <div className="proposition-paragraph mt-4">
+                                        <p>High Performance Prismatic Cells with &gt;160Wh/cell</p>
+                                    </div>
+                                </div>
+
+                                <div className="proposition">
+                                    <div className="proposition-img">
+                                        <img src='/images/Home/battery.png' alt='' />
+                                    </div>
+                                    <div className="proposition-paragraph mt-4">
+                                        <p>40% Higher Energy Density at &gt;160KWh/Kg</p>
+                                    </div>
+                                </div>
+
+                                <div className="proposition">
+                                    <div className="proposition-img">
+                                        <img src='/images/Home/protect.png' alt='' />
+                                    </div>
+                                    <div className="proposition-paragraph mt-4">
+                                        <p>Safe, well tested NMC chemistry with added thermal protections</p>
+                                    </div>
+                                </div>
+
+                                <div className="proposition">
+                                    <div className="proposition-img">
+                                        <img src='/images/Home/recycle.png' alt='' />
+                                    </div>
+                                    <div className="proposition-paragraph mt-4">
+                                        <p>Recyclable NMC Chemistry. Li can be reused</p>
+                                    </div>
+                                </div>
+
+                                <div className="proposition">
+                                    <div className="proposition-img">
+                                        <img src='/images/Home/aatmanirbhar-bharat.png' alt='' />
+                                    </div>
+                                    <div className="proposition-paragraph mt-4">
+                                        <p>Secured Supply Chain with suppliers moving to India</p>
+                                    </div>
+                                </div>
+
+                                <div className="proposition">
+                                    <div className="proposition-img">
+                                        <img src='/images/Home/made-in-India.png' alt='' />
+                                    </div>
+                                    <div className="proposition-paragraph mt-4">
+                                        <p>Make in India and designed for Indian needs</p>
+                                    </div>
+                                </div>
+
+                            </div>
                         </div>
                         <div className="col-lg-1"></div>
                         <div className="col-sm-12 col-md-5 col-lg-5 d-flex align-items-center">
@@ -159,17 +148,17 @@ export default function Home() {
                     <div className="row">
                         <div className="col-lg-3">
                             <div className="cell-paragraph">
-                                <p style={{width: "194px"}}>Proprietary (I-NMC) chemistry to increase cycle life with high energy density and increased safety</p>
+                                <p style={{ width: "194px" }}>Proprietary (I-NMC) chemistry to increase cycle life with high energy density and increased safety</p>
                             </div>
                         </div>
                         <div className="col-lg-9">
-                            <img src='/images/Home/cellchart.png' alt=''/>
+                            <img src='/images/Home/cellchart.png' alt='' />
                         </div>
                     </div>
                 </div>
             </section>
 
-            <CellDesigned/>
+            <CellDesigned />
 
             <ReachToUs />
 

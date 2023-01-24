@@ -63,9 +63,14 @@
         height: 350px;
     }
 
-    .core-table
+    .core-table,.proposition-table
     {
         margin-top: 30px;
+        grid-template-columns: auto;
+    }
+    .core,.proposition
+    {
+        padding: 25px 20px;
     }
 
     .core-img img
@@ -74,7 +79,7 @@
         height: 40px;
     }
 
-    .core-table tr td
+    .core
     {
         width: 270px;
         padding: 30px 30px;
@@ -108,17 +113,6 @@
     .cell-list ul li
     {
         font-size: 14px;
-    }
-
-    .proposition-table tr,
-    .core-table tr
-    {
-        display: grid;
-    }
-
-    .proposition-table tr td
-    {
-        width: 330px;
     }
 
     .cell-image img {

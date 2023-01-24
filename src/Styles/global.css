@@ -91,7 +91,7 @@ p
 
 .home-top--content
 {
-    margin-bottom: 220px;
+    margin-bottom: 210px;
 }
 
 .home-top
@@ -162,17 +162,23 @@ p
 .core-table,
 .proposition-table
 {
-    border-collapse: collapse;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    border: 1px solid rgba(255, 255, 255, 0.24);
     border-radius: 16px;
     overflow: hidden;
 }
+.proposition-table{
+    border: 1px solid rgba(19, 20, 77, 0.24);
+}
 
 
-.core-table tr td
+.core
 {
-    width: 500px;
+    width: 350px;
     padding: 25px 40px;
-    border: 1px solid rgba(255, 255, 255, 0.24);
+    border: .5px solid rgba(255, 255, 255, 0.24);
     background: rgba(255, 255, 255, 0.04)
 }
 
@@ -229,11 +235,12 @@ p
     margin-bottom: 25px;
 }
 
-.proposition-table tr td
+.proposition
 {
     background: #FFFFFF;
-    border: 1px solid rgba(19, 20, 77, 0.24);
+    border: .2px solid rgba(19, 20, 77, 0.24);
     padding: 32px;
+    overflow: hidden;
 }
 
 .proposition-img img
