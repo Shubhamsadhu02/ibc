@@ -172,7 +172,10 @@ p
 .proposition-table{
     border: 1px solid rgba(19, 20, 77, 0.24);
 }
-
+.core-table
+{
+    width: 700px;
+}
 
 .core
 {
