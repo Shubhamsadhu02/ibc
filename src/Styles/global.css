@@ -146,13 +146,13 @@ p {
   margin-top: -45px;
 }
 
-.core-table{
+.core-table {
   border: 1px solid rgba(255, 255, 255, 0.24);
   border-radius: 16px;
   overflow: hidden;
 }
 
-.core-table .row .col-xl-6{
+.core-table .row .col-xl-6 {
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
@@ -302,4 +302,13 @@ p {
 
 .about-container {
   width: 100%;
+}
+
+/* CSS for desktop view */
+@media (min-width: 768px) {
+  .about-container {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+  }
 }
