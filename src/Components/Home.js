@@ -56,7 +56,7 @@ export default function Home() {
               <br />
               The R&D is being done in the US, a pilot plant is being built in
               South Korea, and High-Volume-Manufacturing is planned to be done
-              in India & US.
+              in India & US in a copy exactly format.
             </p>
           </div>
 
