@@ -106,7 +106,9 @@ export default function Home() {
                     <img src="/images/Home/recycle.png" alt="" />
                   </div>
                   <div className="proposition-paragraph mt-4">
-                    <p>Recyclable NMC Chemistry. Li, Ni, Mn, Cobe reused</p>
+                    <p>
+                      Recyclable NMC Chemistry. Li, Ni, Mn, Co can be reused
+                    </p>
                   </div>
                 </div>
 
