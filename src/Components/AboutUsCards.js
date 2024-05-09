@@ -3,7 +3,7 @@ import React from "react";
 export default function AboutUsCards() {
   return (
     <div className="about-container mt-15">
-      <div className="about-box mb-4">
+      <div className="about-box">
         <div className="about-img">
           <img src="/images/Home/about1.png" alt="" />
         </div>
@@ -29,7 +29,7 @@ export default function AboutUsCards() {
         </div>
       </div>
 
-      <div className="about-box mb-4">
+      <div className="about-box">
         <div className="about-img">
           <img src="/images/Home/about2.png" alt="" />
         </div>

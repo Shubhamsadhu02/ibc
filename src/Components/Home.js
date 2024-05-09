@@ -16,7 +16,7 @@ export default function Home() {
             <div className="row">
               <div className="home-top--content col-sm-12 col-md-7 col-lg-7">
                 <div className="home-head">
-                  <h1>High-Performance Lithium-Ion Cells for Mobility</h1>
+                  <h1>Building High-Performance Lithium-Ion Cells for Mobility</h1>
                 </div>
                 <div className="head-contact_btn mt-5">
                   <a href="#reachtous">
@@ -45,18 +45,10 @@ export default function Home() {
             className="about-paragraph text-center mt-10 d-flex justify-content-center align-items-center"
             style={{ width: "870px" }}>
             <p>
-              International Battery Company (IBC) plans to build proprietary
-              I-NMC Prismatic cells in India & US at the planned non-captive
-              Gigafactory sites. IBC cells will reduce battery complexity due to
-              the large form factor, have 40% higher energy density than LFP
-              cells, and are recyclable. These cells will be especially suited
-              for mobility applications (EVs). The supply chain will be
-              localized and secured to enable energy independence.
+              International Battery Company (IBC) plans to build proprietary I-NMC Prismatic Battery cells in India & US at the planned non-captive Gigafactory sites. IBC cells will reduce battery complexity due to the large form factor, have 40% higher energy density than LFP cells, and are completely recyclable. These cells will be especially suited for mobility applications (EVs). The supply chain will be localized and secured to enable energy independence.
               <br />
               <br />
-              The R&D is being done in the US, a pilot plant is being built in
-              South Korea, and High-Volume-Manufacturing is planned to be done
-              in India & US in a copy exactly format.
+              IBC has built a 50 MWh Battery Cell Manufacturing plant in South Korea and started production of Prabal 1000 series battery cells, which are both UN 38.3 and BIS certified. IBC is building Giga Factories in India & US with a copy-exact format of the South Korea plant.
             </p>
           </div>
 
@@ -76,7 +68,7 @@ export default function Home() {
                     <img src="/images/Home/high-performance.png" alt="" />
                   </div>
                   <div className="proposition-paragraph mt-4">
-                    <p>High Performance Prismatic Cells with &gt;180Wh/cell</p>
+                    <p>High Performance Prismatic Cells with &gt;180 KWh/cell</p>
                   </div>
                 </div>
 
@@ -107,7 +99,7 @@ export default function Home() {
                   </div>
                   <div className="proposition-paragraph mt-4">
                     <p>
-                      Recyclable NMC Chemistry. Li, Ni, Mn, Co can be reused
+                      Recyclable NMC Chemistry. Li, Ni, Mn, Cobe reused
                     </p>
                   </div>
                 </div>
@@ -125,6 +117,7 @@ export default function Home() {
 
                 <div className="proposition">
                   <div className="proposition-img">
+                    <img src="/images/Home/made-in-India.png" alt="" style={{marginRight: '8px'}} />
                     <img src="/images/Home/AmericanMade.png" alt="" />
                   </div>
                   <div className="proposition-paragraph mt-4">

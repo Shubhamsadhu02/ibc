@@ -125,4 +125,8 @@
     {
         justify-content: start !important;
     }
+    .about-box{
+        height: auto;
+        margin-bottom: 1.5rem;
+    }
 }
