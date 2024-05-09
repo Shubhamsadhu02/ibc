@@ -1,28 +1,28 @@
 @media (max-width: 1200px) {
-    .cell-box1,.cell-box2,.cell-box3,.cell-box4
-    {
+
+    .cell-box1,
+    .cell-box2,
+    .cell-box3,
+    .cell-box4 {
         position: initial;
         margin-top: 25px;
     }
 }
+
 @media (max-width: 500px) {
-    h1
-    {
+    h1 {
         font-size: 32px;
     }
 
-    h2
-    {
+    h2 {
         font-size: 28px;
     }
 
-    h5
-    {
+    h5 {
         font-size: 16px;
     }
 
-    p
-    {
+    p {
         font-size: 14px;
     }
 
@@ -30,64 +30,57 @@
         margin-top: 3rem;
     }
 
-    .contact-btn button
-    {
+    .contact-btn button {
         display: none;
     }
 
-    .header-nav
-    {
+    .header-nav {
         display: flex !important;
         justify-content: center !important;
     }
 
-    .home-top
-    {
+    .home-top {
         text-align: center;
         padding-top: 55px;
     }
 
-    .home-top--content
-    {
+    .home-top--content {
         margin-bottom: 70px;
     }
 
-    .contact-btn button, .head-contact_btn button
-    {
+    .contact-btn button,
+    .head-contact_btn button {
         padding: 14px 35px;
         font-size: 14px;
     }
 
     .reachtous,
     .core-values,
-    .cell-designed
-    {
+    .cell-designed {
         padding: 70px 26px !important;
     }
-    
-    .reach-box
-    {
+
+    .reach-box {
         height: 350px;
     }
 
-    .core-table,.proposition-table
-    {
+    .core-table,
+    .proposition-table {
         margin-top: 30px;
         grid-template-columns: auto;
     }
-    .core,.proposition
-    {
+
+    .core,
+    .proposition {
         padding: 25px 20px;
     }
 
-    .core-img img
-    {
+    .core-img img {
         width: 40px;
         height: 40px;
     }
 
-    .core-name
-    {
+    .core-name {
         padding-left: 0px !important;
         margin-left: 25px;
     }
@@ -97,8 +90,7 @@
         height: 55px;
     }
 
-    .topic h2::before
-    {
+    .topic h2::before {
         left: 30%;
     }
 
@@ -106,13 +98,11 @@
         left: 0;
     }
 
-    .topic 
-    {
+    .topic {
         text-align: initial;
     }
 
-    .cell-list ul li
-    {
+    .cell-list ul li {
         font-size: 14px;
     }
 
@@ -121,12 +111,29 @@
         height: 358px;
     }
 
-    .reach-cotent
-    {
+    .reach-cotent {
         justify-content: start !important;
     }
-    .about-box{
+
+    .about-box {
         height: auto;
         margin-bottom: 1.5rem;
+    }
+
+    .full-width {
+        grid-column: inherit;
+    }
+
+    .about-content1 {
+        display: block;
+    }
+
+    .about-countryFlag img {
+        width: 50px;
+        height: 35px;
+    }
+
+    .about-list{
+        margin-left: 0;
     }
 }
