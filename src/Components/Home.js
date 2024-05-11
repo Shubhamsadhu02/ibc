@@ -78,7 +78,7 @@ export default function Home() {
                     <img src="/images/Home/battery.png" alt="" />
                   </div>
                   <div className="proposition-paragraph mt-4">
-                    <p>40% Higher Energy Density at &gt;210KWh/Kg</p>
+                    <p>40% Higher Energy Density than LFP at &gt;210 Wh/Kg</p>
                   </div>
                 </div>
 
