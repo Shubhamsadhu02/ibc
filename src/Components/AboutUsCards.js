@@ -13,7 +13,6 @@ export default function AboutUsCards() {
               <ul>
                 <li>Gigascale manufacturing in US</li>
                 <li>R&D on Cutting Edge Chemistry and Technologies</li>
-                <li>Gigascale manufacturing in US</li>
                 <li>
                   Introduce greater circularity in EV battery supply chain  with novel cell design and rapid, reversible pack manufacturing
                 </li>
